@@ -25,6 +25,12 @@ python client_packed.py 127.0.0.1 44444
 - *online - Shows the online people
 - *exit - Exits the chat
 
+## *talk
+create a private room with n people
+```bash
+*talk a,b,c,d
+```
+
 ## ADMIN Commands:
 
 username - admin, password - adminpass
@@ -33,6 +39,15 @@ username - admin, password - adminpass
 - /ban <user> - Bans a user
 - /code <nickname> <message> - Executes a command on the server if no nickname given, else on given nickname
 - /exit - Exits the server
+
+## /code
+run some code on the remote server or for a user
+```bash
+/code dir
+```
+```bash
+/code <user> <command>
+```
  
 I also added a way to obfuscate the client file when wanted to make it availible for download. I created a packer that compresses the original client file to the given client_packed file. This technique helps us evade some anti-viruses and also reverse engineers that might try to deconstruct the client code.
 
