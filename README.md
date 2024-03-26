@@ -37,9 +37,9 @@ create a private room with n people
 
 username - admin, password - adminpass
 
-- /kick <user> - Kicks a user
-- /ban <user> - Bans a user
-- /code <nickname> <message> - Executes a command on the server if no nickname given, else on given nickname
+- /kick user - Kicks a user
+- /ban user - Bans a user
+- /code nickname command - Executes a command on the server if no nickname given, else on given nickname
 - /exit - Exits the server
 
 ## /code
