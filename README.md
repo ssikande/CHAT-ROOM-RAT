@@ -2,6 +2,8 @@
 
 This project takes stuff learnt from NeuralNine's video tutorial for an Advanced Chat Room in python and adds a lot more functionality to it. I added functionality with Malware in mind. I wanted to combine the idea of a Multiperson Chat Room and combine it with a Remote Acess Trojan. The RAT part is trivial as im using the subprocess library.
 
+Can also be refered to as a Command and Control server.
+
 ## THE CHAT ROOM
 I have built a fully functional chat room (with some bugs, ill fixem later)
 
